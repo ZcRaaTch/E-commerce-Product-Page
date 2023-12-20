@@ -386,7 +386,6 @@ hr {
     }
 
     .cart {
-        display: block;
         width: 380px;
         position: absolute;
         top: 10%;
