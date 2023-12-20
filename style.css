@@ -376,15 +376,24 @@ hr {
     }
 
     .cart-button {
-        margin-left: 30rem;
-    }
-
-    .cart-button {
-        transform: translateY(-20%);
+        position: relative;
+        left: 40rem;
     }
 
     .avatar {
-        transform: translateY(-25%);
+        position: relative;
+        left: 40rem;
+    }
+
+    .cart {
+        display: block;
+        width: 380px;
+        position: absolute;
+        top: 10%;
+        left: 75%;
+
+        box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     }
 
     main {
@@ -398,8 +407,6 @@ hr {
         margin: 3rem 2rem;
         padding-left: 1rem;
     }
-
-
 
     .products {
         height: 30rem;
